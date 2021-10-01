@@ -18,6 +18,8 @@ In the show, there were 16 players and a bridge length of 18. Only 3 players cro
 
 I also wanted to find out how the numbers of winners will change depending on the amount of players and length of the bridge.
 
+My findings are that the show's # of winners, 3, was below the average of ~7 winners, for the amount of players and bridge length if everyone had crossed normally in order and within the time limit.
+
 ------------- 
 
 Test output for 16 players with a bridge length of 18, run 10,000 times:
