@@ -1,4 +1,4 @@
-# Squid-Game_Game-5-Simulation
+# Squid Game - Game 5 Simulation
 **-- TV SHOW SPOILERS BELOW --**
 
 A simulation of game 5, the Bridge Game, from the Squid Game TV show (2021).
