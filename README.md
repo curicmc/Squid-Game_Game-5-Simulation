@@ -4,8 +4,8 @@
 A simulation of game 5, the Bridge Game, from the Squid Game TV show (2021).
 
 It allows you to specify the **amount of players** and the **length of the bridge**.
-You can either run
-* single step-by-step simulation of a game with *BridgeGame.runBridge()*
+You can either run:
+* a single step-by-step simulation of a game with *BridgeGame.runBridge()*
 * OR many games at once to find a breakdown and average amount of winners with *runBridgeAverage(int players, int bridgeLength, int loop)*
 
 ------------- 
