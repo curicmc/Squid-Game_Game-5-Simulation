@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         //Returns the statistics of a bridge game run 1000 times with 16 players and a bridge length of 18
-        runBridgeAverage(16, 18, 10000);
+        runBridgeAverage(16, 18, 1000);
 
         //Runs a step-by-step simulation of a single game with 16 players and a bridge length of 18
         BridgeGame originalGame = new BridgeGame(16, 18);   // creates bridge game
@@ -45,7 +45,7 @@ public class Main {
 
         System.out.println("Statistics for " + loop + " game(s):");
         System.out.println("\t| Players Remaining : Count : Probability |");
-        System.out.println("\t------------------------------");
+        System.out.println("\t-------------------------------------------");
         for(int i = 0; i <= players; i++){
             BigDecimal probability = BigDecimal.valueOf(playersLeftCount[i]).divide(BigDecimal.valueOf(loop), 10, RoundingMode.HALF_UP);
             System.out.println("\t" + i + "\t : " + playersLeftCount[i] + "\t : "
